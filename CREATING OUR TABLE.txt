@@ -1,0 +1,16 @@
+                                                          CREATING OUR TABLE
+
+
+Use db_name;
+
+Create Table table_name(
+
+column_name1 datatype constraints,
+column_name2 datatype constraints
+);
+
+CREATE TABLE STUDENT(
+ID INT PRIMARY KEY,
+name Varchar(50),
+age INT NOT NULL
+);
