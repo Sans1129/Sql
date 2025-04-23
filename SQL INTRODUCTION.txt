@@ -1,3 +1,46 @@
                                                                  SQL INTRODUCTION
 
 
+DATABASE:-
+Database is a collection of data in a format that can be easily accessed(DIGITAL)
+
+DATABASE MANAGEMENT SYSTEM(DBMS):-
+A software application that used to manage our DB is called DBMS(DATABASE MANAGEMENT SYSTEM)
+
+------------------------------------------------------------------------X----------------------------------------------------------------
+
+
+USER ----> DBMS-----> DB
+
+-----------------X--------------------------------------------X--------------------------------------------------X-----------------------
+
+Types Of Databases:-
+
+1. Relational - Data Stored in Table 
+Ex:- MySQL, SQL SERVER, ORACLE, POSTGRESQL
+
+**** WE USE SQL TO WORK WITH RELATIONAL DATABASE ****
+
+2. Non Relational Databases - Data not stored in table.
+Ex:- Mango DB
+
+--------------------------------------------------------------X----------------------------------------------------------------------------
+What is SQL?
+
+SQL is a programming language used to interact with relational databases.
+
+It is used to perform CRUD operations:-
+CREATE
+READ
+UPDATE
+DELETE
+----------------------------------------------------------------------------------X---------------------------------------------------------
+A TABLE IS AN INTERACTION OF ROWS AND COLUMNS.
+
+COLUMNS - GENERAL STRUCTURE/ SCHEMAS (DESIGN)
+ROWS - INDIVIDUAL DATA
+----------------------------------------------X----------------------------------------X----------------------------------------------------
+
+                                                                 SQL INTRODUCTION
+
+
