@@ -1,1 +1,36 @@
                                      CONSTRAINTS IN SQL
+
+SQL CONSTRAINTS ARE USED TO SPECIFY RULES FOR DATA IN A TABLE.
+
+NOT NULL           columns cannot have a null value COL1 int NOT NULL
+
+UNIQUE             all values in column are different  COL2 int UNIQUE 
+
+PRIMARY KEY        makes a column unique & not null but used only for one
+
+                     id int PRIMARY KEY
+                     
+                     CREATE TABLE  temp (
+                      id int not null,
+                      PRIMARY KEY (id) );
+
+FOREIGN KEY         Prevent actions that would destroy links between tables
+                    
+                      CREATE TABLE temp (
+                        cust_id int,
+                        FOREIGN KEY (cust_id) references customer(id));
+
+
+DEFAULT              Sets default value of a column
+                        Salary INT DEFAULT 25000
+
+CHECK               It CAN LIMIT THE VALUES ALLOWED IN A COLUMN 
+               
+                    CREATE TABLE city (
+                     id INT PRIMARY KEY,
+                     city VARCHAR(50),
+                     age INT,
+                      CONSTRAINT age_check CHECK (age >= 18 AND city = " DELHI"));
+       
+                    CREATE TABLE newTab (
+                         age  INT CHECK (age> = 18));   
