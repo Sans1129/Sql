@@ -1,0 +1,7 @@
+                                                     SQL DATATYPES
+
+Signed & Unsigned 
+
+TinyINT UNSIGNED (0 TO 255)
+TinyINT(- 128 TO 127)
+
